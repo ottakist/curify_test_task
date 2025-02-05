@@ -103,7 +103,6 @@ export default function index() {
                 onClick={() => swapCurrencies()}
               >
                 <Image
-                  className='dark:invert'
                   src='/swap.svg'
                   alt='Next.js logo'
                   width={180}

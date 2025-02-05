@@ -11,12 +11,12 @@ const CurrencySelector: React.FC<CurrencySelectorProps> = ({
   currencies
 }) => {
   return (
-    <div className='mb-4'>
-      <label className='block text-sm font-medium text-gray-700'>
+    <div className='h-[84px] rounded-lg border border-solid border-gray-250 bg-white px-4 py-2 text-2xl font-semibold hover:bg-gray-150 w-full'>
+      <label className='block text-sm font-medium text-gray-400'>
         Select Currency
       </label>
       <select
-        className='mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
+        className='mt-1 block w-full p-2 !border-0 !outline-0  '
         value={value}
         onChange={(e) => onChange(e.target.value)}
       >

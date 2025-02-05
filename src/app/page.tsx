@@ -1,10 +1,10 @@
-import Convert from './pages/convert'
-// import List from './pages/list'
+
+import Link from 'next/link'
+import Convert from './convert/page'
 export default function Home() {
   return (
-    <main className='flex h-screen w-screen items-center justify-center'>
+    <main className='flex h-full w-screen  justify-center'>
       <Convert />
-      {/* <List /> */}
     </main>
   )
 }
